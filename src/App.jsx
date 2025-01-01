@@ -15,7 +15,7 @@ function App() {
 
  return (
     <>
-      <div className='main-page'>
+      <div class='main-page'>
         <div id='content'>
         <NavComponent></NavComponent>
         <MainContent></MainContent>
