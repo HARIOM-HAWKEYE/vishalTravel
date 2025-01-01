@@ -1,0 +1,31 @@
+
+#milestone{
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    top: 85%;
+    width: 100%;
+    z-index: 10;
+  
+  
+    .mileBoxes{
+        text-align: center;
+        background-color: white;
+        width: 250px;
+        padding: 20px 0px;
+
+        margin: 0px 30px;
+        border-radius: 14px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        
+     .number{
+        font-size: 36px;
+     }
+     .numberName{
+        font-size: 18px;
+     }      
+
+    }
+}

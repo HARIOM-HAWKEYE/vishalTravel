@@ -1,0 +1,23 @@
+#locationHeading{
+    width: 85%;
+    margin: auto;
+}
+#locationHeading>p{
+     
+    font-size: 25px;
+    color: grey;
+    padding-left:6px ;
+    
+}
+#incredibleContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+.incredibleIndia{
+   font-size: 90px;
+}
+.incredibleMessage{
+   font-size: 25px;
+padding-top: 40px;
+}
+}

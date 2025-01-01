@@ -1,0 +1,101 @@
+#locationContainer{
+   
+    // background-color: red;
+    width: 85%;
+    margin: auto;
+    
+ #locationHeading>p{
+    
+     font-size: 25px;
+     color: grey;
+     padding-left:6px ;
+     
+ }
+ #incredibleContainer{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ .incredibleIndia{
+    font-size: 90px;
+ }
+ .incredibleMessage{
+    font-size: 25px;
+padding-top: 40px;
+ }
+ }
+ 
+ #gallery-grid{
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    // background-color: gold;
+    grid-template-rows: 350px 300px;
+.item{
+background-color: red;
+border-radius: 20px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+&::after{
+    content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: inherit;  
+}
+}
+.item-1{
+    grid-column: 1 / 3;
+    grid-row:1;
+    background-image: url(../src/assets/locations/uttrakhand.jpg);
+   
+}
+.item-2{
+    grid-column: 3 / 4;
+    grid-row:1;
+    background-image: url(../src/assets/locations/uttrakhand.jpg);
+}
+.item-3{
+    grid-column: 1 / 2;
+    grid-row:2;
+    background-image: url(../src/assets/locations/uttrakhand.jpg);
+}
+.item-4{
+    grid-column: 2 / 3;
+    grid-row:2;
+    background-image: url(../src/assets/locations/uttrakhand.jpg);
+}
+.item-5{
+    grid-column: 3 / 4;
+    grid-row:2;
+    background-image: url(../src/assets/locations/uttrakhand.jpg);
+}
+
+.PlaceName{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    z-index: 2;
+    font-weight: bold;
+    .city{
+        display: flex;
+        align-items: center;
+        margin-top: 3px ;
+        font-size: 18px;
+        font-weight: 200;
+    }
+}
+
+ }
+
+ 
+}
